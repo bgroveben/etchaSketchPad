@@ -10,4 +10,10 @@ $(document).ready(function() {
 		html.push("</tr>");
 	}
 	$table.append(html.join(''));
+
+	$("td").hover(function() {
+		$(this).addClass("hover");
+	}, function() {
+		$(this).removeClass("hover");
+	});
 });

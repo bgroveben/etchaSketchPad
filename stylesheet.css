@@ -12,3 +12,7 @@
 	height: 2em;
 	width: 2em;
 }
+
+.hover {
+	background-color: blue;
+}
